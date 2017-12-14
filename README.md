@@ -15,7 +15,7 @@ npm i --save json-timeout
 
 const json = require('json-timeout')();
 
-const obj = json(1000 * 60) // destroy entry every 60s
+const obj = json(1000 * 60); // destroy entry every 60s
 
 obj.set('hello', 'world'); 
 
