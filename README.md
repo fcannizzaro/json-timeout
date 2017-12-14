@@ -1,5 +1,5 @@
 # json-timeout
-json-timeout
+Auto destroy unused key (timeout)
 
 [![npm](https://img.shields.io/npm/v/json-timeout.svg)](https://www.npmjs.com/package/json-timeout)
 [![npm](https://img.shields.io/npm/dm/json-timeout.svg)](https://www.npmjs.com/package/json-timeout)
