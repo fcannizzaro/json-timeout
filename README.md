@@ -12,15 +12,10 @@ npm i --save json-timeout
 
 # Usage
 ```javascript
-
-const json = require('json-timeout')();
-
+const json = require('json-timeout');
 const obj = json(1000 * 60); // destroy entry every 60s
-
 obj.set('hello', 'world'); 
-
 const hello = obj.get('hello'); // world
-
 ```
 
 # Events
